@@ -1,3 +1,8 @@
+<!-- I went ahead and instituted all three type CSS stylings
+utilizing all three different methods - internal, external, and inline.
+Internal and external CSS styling is commented out. Inline is currently
+taking effect.-->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,13 +12,13 @@
     <title>Methods for Adding CSS</title>
     <!-- <link rel="stylesheet" href="./style.css"> -->
     <style>
-      div {
+      /* div {
         background-color: red;
         color: white;
         font-size: 32px;
         text-align: center;
         font-weight: 700;
-      }
+      } 
       p {
         background: green;
         color: white;
@@ -22,12 +27,12 @@
       button {
         background: orange;
         font-size: 18px;
-      }
+      }  */
     </style>
   </head>
   <body>
-    <div>Style me via the external method!</div>
-    <p>I would like to be styled with the internal method, please.</p>
-    <button>Inline Method</button>
+    <div style="background-color: red; color: white; font-size: 32px; text-align: center; font-weight = 700;">Style me via the external method!</div>
+    <p style = "background-color: green; color: white; font-size: 18px">I would like to be styled with the internal method, please.</p>
+    <button style="background-color: orange; font-size: 18px">Inline Method</button>
   </body>
 </html>
