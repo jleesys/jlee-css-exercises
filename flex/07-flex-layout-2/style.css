@@ -22,7 +22,69 @@ body {
 }
 
 .card {
-  border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  /* border: 1px solid #eee; */
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
   border-radius: 4px;
+}
+
+/* additions */
+body {
+  display: flex;
+  flex-flow: column;
+}
+
+.interface {
+  display: flex;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  gap: 32px;
+}
+
+.card {
+  height: 500px;
+  width: 350px;
+  padding: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 800;
+  padding-left: 20px;
+}
+
+.sidebar {
+  padding: 16px;
+  /* border: red 2px solid; */
+  flex: 0 0 auto;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+  s
+}
+
+li {
+  list-style: none;
+  /* border: 2px green solid; */
+  margin-bottom: 6px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
 }
