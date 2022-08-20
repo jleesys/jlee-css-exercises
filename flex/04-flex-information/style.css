@@ -24,3 +24,33 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* additions */
+.image-subs {
+  display: flex;
+  gap: 52px;
+  flex-wrap: wrap;
+
+}
+
+.info-display {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.image-1,
+.image-2,
+.image-3,
+.image-4 {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+  width: 200px;
+}
+
+.text {
+  text-align: center;
+}
